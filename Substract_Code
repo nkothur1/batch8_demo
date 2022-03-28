@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+
   int number1, number2, difference;
   
   //Asking for input
@@ -10,5 +11,6 @@ int main(){
   
   difference = number1 - number2;
   printf("Difference of %d and %d is: %d", number1, number2, difference);
-  return 0;
+
+return 0;
 } 
