@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-  int num1, num2, difference;
+  int no1, no2, difference;
   
   //Asking for input
   printf("Enter first number: ");
-  scanf("%d", &num1);
+  scanf("%d", &no1);
   printf("Enter second number: ");
-  scanf("%d", &num2);
+  scanf("%d", &no2);
   
-  difference = num1 - num2;
-  printf("Difference of %d and %d is: %d", num1, num2, difference);
+  difference = no1 - no2;
+  printf("Difference of %d and %d is: %d", no1, no2, difference);
   return 0;
 }
